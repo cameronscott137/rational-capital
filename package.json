@@ -14,10 +14,7 @@
     "laravel-mix": "^5.0.0",
     "laravel-mix-purgecss": "^5.0.0",
     "postcss": "^7",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
-    "vue-template-compiler": "^2.6.12"
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   },
-  "dependencies": {
-    "alpinejs": "^2.7.3"
-  }
+  "dependencies": {}
 }
