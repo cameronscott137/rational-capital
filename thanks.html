@@ -3,13 +3,14 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Rational Capital | Thoughtful Investing</title>
-    <meta name="description" content="">
+    <title>Rational Capital | Thank You</title>
+    <meta name="description" content="Thoughtful Investing">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta property="og:title" content="">
-    <meta property="og:type" content="">
-    <meta property="og:url" content="">
+    <meta property="og:title" content="Rational Capital | Thoughtful Investing">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rational.cameronscott.co">
+    <meta property="og:description" content="Thoughtful Investing">
     <meta property="og:image" content="">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/icons/apple-touch-icon.png">
@@ -25,7 +26,7 @@
     <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6392236/7726832/css/fonts.css" />
     <link rel="stylesheet" href="public/css/app.css">
 
-    <meta name="theme-color" content="#fafafa">
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 </head>
 
 <body class="antialiased font-body">
@@ -63,10 +64,9 @@
             id="starField"
         ></canvas>
     </section>
-  <script src="public/js/app.min.js"></script>
 
   <script>
-    // Substantial hattip to Slowamir Chodnicki:
+    // **Substantial** hattip to Slowamir Chodnicki:
     // https://codesandbox.io/s/lucid-fast-0v7ch?from-embed=&file=/index.html:165-2338
     const canvas = document.getElementById("starField");
     const c = canvas.getContext("2d");
@@ -111,7 +111,7 @@
       const intensity = brightness * 255;
       const rgb = "rgb(" + intensity + "," + intensity + "," + intensity + ")";
       c.fillStyle = rgb;
-      c.fillRect(x, y, 2.5, 2.5);
+      c.fillRect(x, y, 2, 2);
     };
 
     const moveStars = distance => {

@@ -20,10 +20,3 @@ mix.postCss('assets/css/app.css', 'public/css/', [
     processCssUrls: false,
 })
 .purgeCss();
-
-mix.js(
-  [
-    "assets/js/app.js",
-  ],
-  "public/js/app.min.js"
-);
