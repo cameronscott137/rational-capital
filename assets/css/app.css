@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+::selection {
+    @apply text-white bg-blue-700;
+}
+
+/* Typography */
+a {
+    @apply text-blue-400 hover:text-blue-600 transition-colors duration-100;
+}
+
+/* Home */
+@media screen and (min-width: 768px) {
+    .hero {
+        /* min-height: 32rem; */
+        height: 90vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero {
+        /* min-height: 32rem; */
+        height: 60vh;
+    }
+}
