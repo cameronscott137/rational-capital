@@ -24,6 +24,6 @@ a {
 
 @media screen and (max-width: 768px) {
     .hero {
-        height: 60vh;
+        height: 80vh;
     }
 }
